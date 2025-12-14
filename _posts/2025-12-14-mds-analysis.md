@@ -69,6 +69,6 @@ tsne = TSNE(n_components=2, metric='precomputed', perplexity=30, random_state=42
 coords_tsne = tsne.fit_transform(dist_matrix)
 
 ### 4.1. MDS 분석: 시각화
-MDS를 통해 투영된 시장의 모습은 대체로 **원형(Circular) 구조**를 띤다.
-![MDS Result](/assets/img/2025-12-14/mds1.png)'''
+MDS를 통해 투영된 시장의 모습은 대체로 **원형(Circular) 구조**를 띤다.'''
+![MDS Result](/assets/img/2025-12-14/mds1.png)
 
