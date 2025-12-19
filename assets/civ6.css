@@ -13,3 +13,10 @@
     box-shadow: 0 0 2px rgba(0,0,0,0.2);
     margin: 0 2px;
 }
+
+/* 아이콘 왼쪽 정렬용 클래스 */
+img.left {
+    margin-right: 4px;       /* 텍스트와의 간격 */
+    vertical-align: middle;  /* 텍스트 수직 중앙 정렬 */
+    transform: translateY(-2px); /* 미세 높이 조정 */
+}
