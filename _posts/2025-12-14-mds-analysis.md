@@ -1,8 +1,8 @@
 ---
 title: "MDS를 활용한 주가 데이터의 기하학적 분석"  # 글 제목 (한글 가능)
 date: 2025-12-14 16:00:00 +0900           # 날짜 및 시간
-categories: [Project, Quant, Report]           # [대분류, 소분류]
-tags: [python, econophysics, mds]         # 태그 (소문자 권장)
+categories: [Quant]           # [대분류, 소분류]
+tags: [python, data-analysis]         # 태그 (소문자 권장)
 math: true                                # 수학 수식($$) 켜기 (필수!)
 toc: true                                 # 우측에 목차 자동 생성
 ---
