@@ -34,7 +34,7 @@ $$
 * **MDS (Multidimensional Scaling):** 객체 간의 거리 행렬(Distance Matrix)을 입력받아, 그 거리 관계를 최대한 보존하는 좌표를 찾는다. 데이터의 전역적(Global) 구조를 파악하는 데 유리하다.
 * **t-SNE (t-Distributed Stochastic Neighbor Embedding):** 고차원 공간에서의 이웃 관계(확률 분포)를 저차원에서도 유지하도록 학습한다. 가까운 데이터끼리의 군집(Local Structure)을 시각화하는 데 탁월하다.
 
-## 3. 데이터 및 방법론
+## 3. 방법
 
 ### 3.1. 데이터 전처리
 가격(Price) 데이터는 비정상성(Non-stationary)을 가지므로, 이를 제거하기 위해 **로그 수익률(Log Returns)**로 변환하여 사용한다.
@@ -68,8 +68,11 @@ coords_mds = mds.fit_transform(dist_matrix)
 tsne = TSNE(n_components=2, metric='precomputed', perplexity=30, random_state=42)
 coords_tsne = tsne.fit_transform(dist_matrix)
 
-### 4.1. MDS 분석: 시각화
+## 4. 결과
+
+# 1. MDS 분석: 시각화
 MDS를 통해 투영된 시장의 모습은 대체로 **원형(Circular) 구조**를 띤다.
+
 ```
 
 ![MDS Result](/assets/img/2025-12-14/mds1.png)
