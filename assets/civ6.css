@@ -14,12 +14,13 @@
     margin: 0 2px;
 }
 
+/* .left 클래스가 붙은 이미지는 float를 끄고 글자 흐름에 맞춤 */
 img.civ-icon.left, 
 img.face-icon.left {
-    float: none !important;      /* 기존의 왼쪽 쏠림(float) 강제 해제 */
-    display: inline-block;       /* 이미지를 글자처럼 취급 */
-    vertical-align: middle;      /* 텍스트 높이 중앙에 맞춤 */
-    margin-right: 4px;           /* 텍스트와의 간격 */
-    margin-bottom: 2px;          /* 줄 간격 미세 조정 */
-    transform: translateY(-2px); /* 시각적으로 중앙이 맞도록 살짝 올림 */
+    float: none !important;       /* 왼쪽 쏠림 강제 해제 */
+    display: inline-block;        /* 글자처럼 취급 */
+    vertical-align: middle;       /* 텍스트 높이 중앙 정렬 */
+    margin-right: 4px;            /* 오른쪽 텍스트와 간격 */
+    margin-bottom: 3px;           /* 줄 간격 미세 조정 */
+    transform: translateY(-2px);  /* 시각적 높이 보정 */
 }
