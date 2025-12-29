@@ -137,6 +137,8 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
 
+favicons: /assets/img/favicons
+
 pwa:
   enabled: true # The option for PWA feature (installable)
   cache:
