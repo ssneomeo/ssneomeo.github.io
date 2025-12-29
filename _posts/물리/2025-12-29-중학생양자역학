@@ -1,0 +1,16 @@
+---
+title: "[물리] 중학생한테 양자역학 수학적으로 설명하기"
+date: 2025-12-29 00:00:00 +0900
+categories: [물리]
+tags: [QM]
+image: /assets/img/물리/중학생양자역학.jpg
+math: true
+toc: true
+---
+
+<link rel="stylesheet" href="/assets/civ6.css">
+
+## 1. 개요
+대충 중학교 수준 수학부터 최소한의 가정으로(슈뢰딩거 방정식?) 선형미분방정식 해 구하는 방법 등 유도해가며 수소원자의 전자배치까지 수학적으로 이해할 수 있게 설명하기
+
+## 2. 배경
